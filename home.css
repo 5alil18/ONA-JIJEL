@@ -1,0 +1,1041 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: POPPINS;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+
+    
+}
+body{
+    background-color: #a8e6ff;  
+    width: 100%;
+    
+}
+#titre{
+    color: green;
+}
+.ONA{
+    
+   text-align: center;
+    margin: 10px;
+    color:black;
+}
+.glace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.glace-content{
+    background-color: rgb(255, 255, 255,0.7);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.253);
+    height: 600px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-bottom:20PX;
+
+}
+
+#menu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+#menu li{
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+   
+}
+
+#menu li a{
+    color:black;
+    font-size: 14px;
+}
+.bien{
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    color: green;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+    
+#paragraphe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 9px;
+    margin-right: 7px;
+    line-height: 1.6;
+   
+  
+    
+}
+.title2 h2{
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+.parag{
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.ce{
+    color: black;
+}
+#smilia{
+    color:green;
+    font-size: 20px;
+}
+#sjijel{
+    color: green;
+    font-size: 20px;
+
+}
+#BACK4{
+    background-color: #a8e6ff;
+    width: 100%;
+ }
+ #TITRE5{
+     text-align: center;
+     margin-left: 10px;
+     padding: 20px;
+     margin-bottom: 10px;
+     padding: 13px;
+     
+     
+ }
+ #reseaux{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column;
+     padding: 15px;
+ }
+ .r{
+     margin-left: 15px;
+     margin-bottom: 10px;
+     padding: 10px;
+     
+ }
+ #n{
+    text-align: center;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.a{
+   text-decoration: none;
+   margin: 10px;
+   padding: 10px;
+}
+.a a{
+    color: black;
+    text-decoration: none;
+}
+.a a:hover{
+    color: green;
+} 
+
+@media only screen and (max-width: 411px){
+    .glace-content{
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        height: 1400px;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 40px;
+        margin-bottom:20PX;
+    }
+    .bien h1{
+        font-size: 17px;
+    }
+    .ONA{
+        font-size: 20px;
+        margin: 10px;
+        
+    }
+    .back{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding: 15px;
+        font-size: 17px;
+
+    }
+    #c{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+       
+
+     
+    }
+    .ce{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 10px green;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .nom-centre{
+        margin-top: 15px;
+        
+        color: green;
+    }
+    .center-content{
+        margin-top: 20px;
+    }
+    .ce:hover{
+        translate: -10PX -20PX;
+        transition:  2s;
+    }
+    
+    .TITRE3{
+        text-align: center;
+        padding: 20px;
+    }
+    .step{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+
+        
+    }
+    #sjijel{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        margin: 10px;
+        
+    }
+    #smilia{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        margin: 10px;
+    }
+    #back3{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE4{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 10px;
+
+    }
+    #station{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        
+        
+
+    }
+    .stations{
+        height: 150px;
+        width: 150px;
+        border: 1px solid green;
+        box-shadow: 0px 0PX 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    .stations:hover{
+        scale: 1.1;
+        transition: all ease-in-out 1s;
+
+    
+}
+
+
+
+}
+@media only screen and (min-width:412px) and (max-width: 499px){
+    .glace-content{
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        height: 1230px;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 40px;
+        margin-bottom:20PX ;
+    }
+    .bien h1{
+        font-size: 17px;
+    }
+    .ONA{
+        font-size: 20px;
+        margin: 10px;
+        
+    }
+    .back{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding: 15px;
+        font-size: 20px;
+
+    }
+    #c{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+       
+
+     
+    }
+    .ce{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 10px green;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .nom-centre{
+        margin-top: 15px;
+        
+        color: green;
+    }
+    .center-content{
+        margin-top: 20px;
+    }
+    .ce:hover{
+        translate: -10PX -20PX;
+        transition:  2s;
+    }
+    .TITRE3{
+        text-align: center;
+        padding: 20px;
+    }
+    .step{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        
+    }
+    #sjijel{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        margin: 10px;
+        
+    }
+    #smilia{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        margin: 10px;
+    }
+    #back3{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE4{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 10px;
+        font-size: 19px;
+
+    }
+    #station{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        
+        
+
+    }
+    .stations{
+        height: 150px;
+        width: 150px;
+        border: 1px solid green;
+        box-shadow: 0px 0PX 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    .stations:hover{
+        scale: 1.1;
+        transition: all ease-in-out 1s;
+
+    
+}
+
+
+}
+
+@media only screen and (min-width:500px) and (max-width: 767px){
+    .glace-content{
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        height: 1100px;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 40px;
+        margin-bottom:20PX ;
+    }
+    .bien h1{
+        font-size: 17px;
+    }
+    .ONA{
+        font-size: 20px;
+        margin: 10px;
+      
+    }
+    .back{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding: 15px;
+
+    }
+    #c{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+       
+
+     
+    }
+    .ce{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 10px green;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .nom-centre{
+        margin-top: 15px;
+        
+        color: green;
+    }
+    .center-content{
+        margin-top: 20px;
+    }
+    .ce:hover{
+        translate: -10PX -20PX;
+        transition:  2s;
+    }
+    .TITRE3{
+        text-align: center;
+        padding: 20px;
+    }
+    .step{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+
+        
+    }
+    #sjijel{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        margin-bottom: 10px;
+
+        
+    }
+    #smilia{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        margin-bottom: 10px;
+    }
+    #back3{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE4{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 10px;
+
+    }
+    #station{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        
+        
+
+    }
+    .stations{
+        height: 150px;
+        width: 150px;
+        border: 1px solid green;
+        box-shadow: 0px 0PX 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    .stations:hover{
+        scale: 1.1;
+        transition: all ease-in-out 1s;
+
+    
+}
+
+}    
+
+.green{
+    background-color: green;
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .glace{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    }
+    .glace-content{
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        height: 770px;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 40px;
+        margin-bottom:20PX ;
+    }
+    
+    #menu{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+       
+    }
+    #menu li{
+        padding: 13px;
+        margin-top: 20px;
+        border-radius: 20px;
+       
+       
+    }
+    
+    #menu li a{
+        color:black;
+    }
+    .bien{
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    #title{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 7px;
+        color: green;
+    }
+    #center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+        
+    #paragraphe{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 9px;
+        margin-right: 7px;
+        line-height: 1.6;
+       
+      
+        
+    }
+    .title2 h2{
+        color: green;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 7px;
+    }
+    .parag{
+        margin-left: 7px;
+        margin-bottom: 10px;
+    }
+    .back{
+        
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding: 15px;
+
+    }
+    #c{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+       
+
+     
+    }
+    .ce{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 10px green;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .nom-centre{
+        margin-top: 15px;
+        
+        color: green;
+    }
+    .center-content{
+        margin-top: 20px;
+    }
+    .ce:hover{
+        translate: -10PX -20PX;
+        transition:  2s;
+    }
+    .TITRE3{
+        text-align: center;
+        padding: 20px;
+    }
+    .step{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        margin-bottom: 10px;
+        
+    }
+    #sjijel{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        
+    }
+    #smilia{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+    }
+    #back3{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE4{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 10px;
+
+    }
+    #station{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        align-items: center;
+        
+        
+
+    }
+    .stations{
+        height: 150px;
+        width: 150px;
+        border: 1px solid green;
+        box-shadow: 0px 0PX 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    .stations:hover{
+        scale: 1.1;
+        transition: all ease-in-out 1s;
+
+    
+}
+}
+@media only screen and (min-width:992px) and (max-width:10000000px){
+    
+    .glace{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    }
+    .glace-content{
+        border: 1px solid green;
+        box-shadow: 0 0 50px green;
+        height: 600px;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 40px;
+        margin-bottom:20PX ;
+    }
+    
+    #menu{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+       
+    }
+    #menu li{
+        padding: 13px;
+        margin-top: 20px;
+        border-radius: 20px;
+       
+       
+    }
+    
+    #menu li a{
+        color:black;
+    }
+    .bien{
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    #title{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 7px;
+        color: green;
+    }
+    #center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+        
+    #paragraphe{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 9px;
+        margin-right: 7px;
+        line-height: 1.6;
+       
+      
+        
+    }
+    
+    .title2 h2{
+        color: green;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 7px;
+    }
+    .parag{
+        margin-left: 7px;
+        margin-bottom: 10px;
+    }
+    .back{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding: 15px;
+
+    }
+    #c{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+       
+
+     
+    }
+    .ce{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 40px green;
+        background-color: rgb(255, 255, 255,0.7);
+        
+        margin: 20px;
+        border-radius: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .nom-centre{
+        margin-top: 15px;
+        
+        color: green;
+    }
+    .center-content{
+        margin-top: 20px;
+    }
+    .ce:hover{
+        translate: -10PX -20PX;
+        transition:  all ease-in-out 1s;
+    }
+    #back2{
+        background-color: #a8e6ff;
+        margin-bottom: 40px;
+    }
+    .TITRE3{
+        text-align: center;
+        padding: 20px;
+    }
+    .step{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        
+    }
+    #sjijel:hover{
+        translate: -10PX -20PX;
+        transition: all ease-in-out 1s;
+    }
+    #smilia:hover{
+        translate: 10PX -20PX;
+        transition: all ease-in-out 1s;
+    }
+    #sjijel{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        background-color: rgb(255, 255, 255,0.7);
+        
+    }
+    #smilia{
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        box-shadow: 0 0 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+        background-color: rgb(255, 255, 255,0.7);
+    }
+    #back3{
+        background-color: rgba(0, 0, 0, 0.253);
+        height: max-content;
+        width: 100%;
+    }
+    #TITRE4{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 10px;
+
+    }
+    #station{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        align-items: center;
+        
+        
+
+    }
+    .stations{
+        height: 150px;
+        width: 150px;
+        border: 1px solid green;
+        box-shadow: 0px 0PX 60px green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255,0.7);
+    }
+    .stations:hover{
+        scale: 1.1;
+        transition: all ease-in-out 1s;
+    }
+    
+    
+
+}
